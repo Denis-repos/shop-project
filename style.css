@@ -208,18 +208,10 @@ input::placeholder{
 
 
 .slider{
-  width: 1920px;
   height: 400px;
   border-bottom: 1px solid white;
   border-top: 1px solid white;
   background-color: rgba(35, 90, 147, 0.5);
-}
-.container1{
-  width: 1200px;
-  margin: 0 auto;
-  padding-left:15px;
-  padding-right: 15px;
-  height: 2335px;
 }
 
 .filter{
@@ -250,6 +242,8 @@ input::placeholder{
   font-size: 48px;
   color: white;
   font-weight: bold;
+  padding-top: 13px;
+  padding-right: 2px;
 }
 
 
