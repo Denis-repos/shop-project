@@ -29,6 +29,9 @@ body {
   width: 75%;
 }
 
+.col-md-4{
+  width: 33%;
+}
 
 [class*="col-"]{
   float: left;
@@ -220,16 +223,17 @@ input::placeholder{
   border-right: 1px solid white;
 }
 
-.text1{
-  float: left;
-  font-size: 14px;
-  font-weight: 400;
-  color: #6195ca;
-  padding-top: 28px;
-  padding-right: 6px;
+.text1 a{
+   float: left;
+   font-size: 14px;
+   font-weight: 400;
+   color: #6195ca;
+   padding-top: 28px;
+   padding-right: 6px;
+   text-decoration: none;
 }
 
-.text2{
+.text2 a {
   float: left;
   font-size: 14px;
   font-weight: 400;
@@ -242,10 +246,14 @@ input::placeholder{
   font-size: 48px;
   color: white;
   font-weight: bold;
-  padding-top: 13px;
-  padding-right: 2px;
 }
 
+.col-md-8 {
+  width: 66%;
+  padding: 15px;
+}
 
-
-
+.col-md-12{
+  width: 100%;
+  padding: 0px;
+}
