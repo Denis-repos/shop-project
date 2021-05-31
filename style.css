@@ -269,6 +269,7 @@ input::placeholder{
   background-position-y: 16px;
   background-size: 13px;
   background-position-x: 246px;
+  margin-top: 25px;
 }
 
 .col-md-4{
@@ -280,7 +281,7 @@ input::placeholder{
   width: 270px;
   height: 650px;
   float: left;
-  padding-top: 30px;
+  padding-top: 60px;
 }
 
 .product_photo{
