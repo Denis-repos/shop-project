@@ -273,7 +273,6 @@ input::placeholder{
 
 .col-md-4{
   width: 33%;
-  padding-top: 23px;
 }
 
 
@@ -356,69 +355,12 @@ input::placeholder{
   background-color: rgba(44, 113, 184, 0.75);
 }
 
-.product_info li{
-  color: white;
-  margin-left: 15px;
-  position: relative;
-}
-
-.name{
-  font-size: 30px;
-  font-weight: bold;
-  margin-top: 13px;
-}
-
-.info{
-  font-size: 21px;
-  font-weight: 300;
-  margin-top: 10px;
-}
-
-.ty_scr_ram1{
-  font-weight: bold;
-  margin-top: 27px;
-}
-
-.ty_scr_ram2{
-  font-weight: bold;
-  margin-top: 20px;
-}
-
-.ty_scr_ram3{
-  font-weight: bold;
-  margin-top: 15px;
-}
-
-
-.inf1{
-  position: absolute;
-  left: 48px;
-  bottom: 0px;
-
-}
-
-.inf3 {
-  position: absolute;
-  left: 44px;
-  bottom: 0px;
-
-}
-
-
-.inf2 {
-  position: absolute;
-  left: 105px;
-  bottom: 0px;
-}
-
 
 .prise{
-  margin-top: 30px;
-  margin-bottom: 25px;
   font-weight: bold;
   font-size: 48px;
   text-align: center;
-  width: 270px;
+  padding: 13px;
 }
 
 .bottom_prise{
@@ -433,8 +375,8 @@ input::placeholder{
   color: white;
   font-size: 21px;
   font-weight: bold;
-  margin-left: 13px;
-  margin-bottom: 10px;
+  margin-left: 30px;
+  margin-top: 15px;
 }
 
 
@@ -454,3 +396,39 @@ input::placeholder{
   background-size: 13px;
 }
 
+.name{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-top: 13px;
+}
+
+.info{
+  font-size: 21px;
+  font-weight: lighter;
+  color: white;
+  padding-left: 15px;
+  padding-top: 13px;
+}
+
+.ty_scr_ram{
+  font-weight: bold;
+  padding-top: 13px;
+  padding-left: 15px;
+  color: white;
+}
+
+.stats p{
+  padding-top: 13px ;
+  color: white;
+}
+
+sup{
+  font-size: 60%;
+  vertical-align: super;
+}
+
+.prise{
+  color: white;
+}
