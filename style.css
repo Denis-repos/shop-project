@@ -49,7 +49,6 @@ body {
 .row{
   padding-left: -15px;
   padding-right: -15px;
-  height: 50px;
 }
 
 .logo{
@@ -251,7 +250,7 @@ input::placeholder{
 .col-md-8 {
   width: 66%;
   padding : 0px;
-  padding-top: 13px;
+  padding-top: 23px;
 }
 
 .col-md-12{
@@ -274,7 +273,7 @@ input::placeholder{
 
 .col-md-4{
   width: 33%;
-  padding-top: 13px;
+  padding-top: 23px;
 }
 
 
@@ -282,12 +281,7 @@ input::placeholder{
   width: 270px;
   height: 650px;
   float: left;
-}
-
-.landing{
-  padding-top: 52px;
-  width: 100%;
-
+  padding-top: 30px;
 }
 
 .product_photo{
@@ -419,19 +413,17 @@ input::placeholder{
 
 
 .prise{
-  position: absolute;
   margin-top: 30px;
   margin-bottom: 25px;
   font-weight: bold;
   font-size: 48px;
-  left: 40px;
+  text-align: center;
+  width: 270px;
 }
 
 .bottom_prise{
-  position: absolute;
-  font-size: 60%;
-  left: 118px;
-  bottom: 11px;
+ vertical-align: super;
+ font-size: 60%;
 }
 
 
